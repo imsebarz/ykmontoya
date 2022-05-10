@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  min-width: 100%;
+  padding: 40px 0;
+  justify-content: space-around;
+  background: #00000000;
+}
+
+.logo {
+  transition: all 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.navigation {
+  display: flex;
+  width: 60%;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.navigation li {
+  list-style: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00000000;
+  transition: all 0.5s ease;
+}
+
+.focus {
+  background: #fd5555 !important;
+  border-radius: 15px;
+  padding: 5px 10px;
+  animation: all 1.2 ease;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
